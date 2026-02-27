@@ -3,4 +3,4 @@ def alert_console(message):
 
 def alert_sound():
     import winsound
-    winsound.Beep(1000, 500)  # frequency 1000Hz, duration 500ms
+    winsound.Beep(1000, 500)  
