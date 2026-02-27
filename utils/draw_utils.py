@@ -1,4 +1,4 @@
-import cv2
+import cv2 
 
 def draw_bounding_box(frame, box, color):
     x1, y1, x2, y2 = box
