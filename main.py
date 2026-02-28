@@ -6,6 +6,7 @@ from utils.draw_utils import draw_bounding_box, draw_crib_area, draw_alert_text
 from utils.alert_utils import alert_console, alert_sound
 
 cap = cv2.VideoCapture(CAMERA_ID)
+
 detector = YOLODetector()
 
 while True:
