@@ -1,3 +1,4 @@
+
 def is_inside_crib(box, crib_area):
     x1, y1, x2, y2 = box
     cx = (x1 + x2) / 2
