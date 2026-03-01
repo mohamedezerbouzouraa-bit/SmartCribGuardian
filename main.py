@@ -13,7 +13,6 @@ while True:
     ret, frame = cap.read()
     if not ret:
         break
-
     results = detector.detect(frame)
     alert = False
 
