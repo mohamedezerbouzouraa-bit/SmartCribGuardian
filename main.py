@@ -7,6 +7,7 @@ from utils.alert_utils import alert_console, alert_sound
 
 cap = cv2.VideoCapture(CAMERA_ID)
 detector = YOLODetector()
+
 while True:
     ret, frame = cap.read()
     if not ret:
